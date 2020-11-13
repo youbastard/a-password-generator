@@ -1,0 +1,46 @@
+:root [data-theme="pearl"],
+:root .pearl {
+
+  --bg-main-color: hsl( 0, 0%, 94%);
+  --bg-table-oncourt-color:  hsl( 0, 0%, 100%);
+  --bg-alt-color: hsl( 36, 23%, 85%);
+  --bg-nav-color: hsl( 36, 23%, 90%);
+  --bg-gamelog-color: #{darken($c_flake-grey, 10%)};
+  --bg-shotchart-color: #{darken($c_flake-grey, 10%)};
+
+  --text-main-color: #{$c_bread-black};
+  --text-intense-color: #{darken($c_bread-black, 10%)};
+  --text-alt-color: #{$c_bread-black};
+  --text-broadcast-color: #{$c_leo-grey};
+  
+  --text-accent-color: hsla( 10, 100%, 45%, 100);
+  --text-accent-shadow: hsla( 0, 100%, 100%, 0);
+
+  --text-live-clock-color: #{$c_nba_red};
+  --text-error: #{$c_night-at-the-improv};
+  --text-component-info: #{$c_basic-grey};
+
+  --link-main-color: #{$c_link-blue};
+  --link-hover-color: #{$c_link-blue};
+  --link-visited-color: #{$c_link-blue};
+  --link-active-color: #{$c_link-blue};
+
+  --hue-1:  hsl(198, 99%, 37%); // <-cyan
+  --hue-2:  hsl(221, 87%, 60%); // <-blue
+  --hue-3:  hsl(301, 63%, 40%); // <-purple
+  --hue-4:  hsl(119, 34%, 47%); // <-green
+  --hue-5:  hsl(  5, 74%, 59%); // <-red 1
+  --hue-6:  hsl(344, 84%, 43%); // <-red 2
+  --hue-7:  hsl(41, 99%, 30%); // <-orange 1
+  --hue-8:  hsl(41, 99%, 38%); // <-orange 2
+  --hue-9:  hsl(  0, 74%, 55%); // <-bright-red
+  --hue-10: hsl( 28,100%, 50%); // <-orange 3;
+
+  --loader-base: rgba(15, 15, 15, .9);
+  --loader-red: rgba(255, 0, 50, 0.4);
+  --loader-blue: rgba(0, 255, 235, 0.5);
+
+  // League Colors
+  --nba-blue: #{$c_nba_blue};
+  --nba-red: #{$c_nba_red};
+}

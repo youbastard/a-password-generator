@@ -1,0 +1,47 @@
+:root [data-theme="noir"], 
+:root .noir {
+
+  --bg-main-color: #{darken($c_pale-black, 7%)};
+  --bg-table-oncourt-color: #{$c_pale-black};
+  --bg-alt-color: #{lighten($c_bread-black, 10%)};
+  --bg-nav-color: #{$c_pale-black};
+  --bg-gamelog-color: #{lighten($c_bread-black, 5%)};
+  --bg-shotchart-color: #{lighten($c_bread-black, 5%)};
+
+  --text-main-color: hsla( 47, 19%, 92%, 1);
+  --text-intense-color: #{lighten($c_flake-grey, 10%)};
+  --text-alt-color: #{darken($c_flake-grey, 20%)};
+  --text-no-game-color: #{darken($c_flake-grey, 40%)};
+  --text-broadcast-color: #{$c_leo-grey};
+
+  --text-accent-color: hsla( 41, 87%, 50%, 1);
+  --text-accent-shadow: hsla( 41, 0%, 0%, 0);
+
+  --text-live-clock-color: #{$c_nba_red};
+  --text-error: #{$c_night-at-the-improv};
+  --text-component-info: #{$c_form-grey};
+
+  --link-main-color: #{$c_wassamatta-blue};
+  --link-hover-color: #{$c_wassamatta-blue};
+  --link-visited-color: #{$c_wassamatta-blue};
+  --link-active-color: #{$c_wassamatta-blue};
+
+  --hue-1:  hsl(187, 47%, 55%); // <-cyan
+  --hue-2:  hsl(207, 82%, 66%); // <-blue
+  --hue-3:  hsl(286, 60%, 67%); // <-purple
+  --hue-4:  hsl( 95, 38%, 62%); // <-green
+  --hue-5:  hsl(355, 65%, 65%); // <-red 1
+  --hue-6:  hsl(  5, 48%, 51%); // <-red 2
+  --hue-7:  hsl( 29, 54%, 61%); // <-orange 1
+  --hue-8:  hsl( 39, 67%, 69%); // <-orange 2
+  --hue-9:  hsl(  0, 74%, 55%); // <-bright-red
+  --hue-10: hsl( 33,100%, 51%); // <-orange 3;
+
+  --loader-base: rgba(254, 254, 254, .9);
+  --loader-red: rgba(255, 0, 50, 0.4);
+  --loader-blue: rgba(0, 255, 235, 0.5);
+
+  // League Colors
+  --nba-blue: #{$c_nba_blue};
+  --nba-red: #{$c_nba_red};
+}

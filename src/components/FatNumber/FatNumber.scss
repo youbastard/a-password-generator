@@ -1,0 +1,62 @@
+.fatNumber {
+
+  display: flex;
+  flex-direction: column;
+  @include items-center;
+  @include b--black-70;
+  @include br3;
+  @include w-100;
+  overflow: hidden;      
+
+  &__label {
+    @include bg-black-10;
+    @include pt3;
+    @include pb1;
+    @include f1;
+    @include lh-title;
+    @include fw7;
+    @include black-90;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__text {
+    @include bg-black-10;
+    @include black-60;
+    @include f6;
+    @include ttu;
+    @include pb2;
+    letter-spacing: .5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__toggle {
+    @include pv2;
+    @include bg-black-05;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__button {
+    cursor: pointer;
+    @include dib;
+    @include white;
+    @include no-underline;
+    @include pv2;
+    @include ph4;
+    @include br-pill;
+    @include ba;
+    @include b--white-20;
+    @include bg-black-50;
+    @include f7;
+    @include ttu;
+    letter-spacing: .5px;
+  }
+
+  &__button:hover {
+    @include bg-black-20;
+    @include black;
+  }
+
+}

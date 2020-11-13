@@ -1,0 +1,23 @@
+@mixin link {
+  text-decoration: none;
+  transition: color .15s ease-in;
+
+  &:link,
+  &:visited {
+    transition: color .15s ease-in;
+  }
+
+  &:hover   {
+    transition: color .15s ease-in;
+  }
+
+  &:active  {
+    transition: color .15s ease-in;
+  }
+
+  &:focus   {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+  }
+
+}

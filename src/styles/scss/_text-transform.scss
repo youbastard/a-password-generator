@@ -1,0 +1,4 @@
+@mixin ttc { text-transform: capitalize; }
+@mixin ttl { text-transform: lowercase; }
+@mixin ttu { text-transform: uppercase; }
+@mixin ttn { text-transform: none; }

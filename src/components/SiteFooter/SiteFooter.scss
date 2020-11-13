@@ -1,0 +1,24 @@
+.site-footer {
+  @include pv3;
+  @include ph3;
+  @include mid-gray;
+
+  &__legal {
+    @include f6;
+    @include db;
+    @include tc;
+  }
+
+  &__company {
+    @include ttu;
+  }
+
+  @media #{$breakpoint-medium} {
+    @include ph5;
+  }
+  
+  @media #{$breakpoint-large} {
+    @include ph6;
+  }
+
+}

@@ -1,0 +1,34 @@
+.site-header {
+  @include bg-black-90;
+  @include w-100;
+  @include ph3;
+  @include pv2;
+  
+  &__nav {
+    @include f6;
+    @include fw6;
+    @include ttu;
+    @include tracked;
+    @include pv1;
+  }
+  
+  &__link {
+    @include link;
+    @include white;
+    @include dib;
+    @include mr3;
+  }
+
+  @media #{$breakpoint-not-small} {
+    @include pv3;
+  }
+  
+  @media #{$breakpoint-medium} {
+    @include pv3;
+  }
+  
+  @media #{$breakpoint-large} {
+    @include pv3;
+  }
+
+}

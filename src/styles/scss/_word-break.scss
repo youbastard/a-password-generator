@@ -1,0 +1,3 @@
+@mixin word-normal { word-break: normal; }
+@mixin word-wrap { word-break: break-all; }
+@mixin word-nowrap { word-break: keep-all; }

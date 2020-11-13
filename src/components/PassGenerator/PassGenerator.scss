@@ -1,0 +1,108 @@
+.pass-gen {
+
+  &__form {
+    @include pa2;
+  }
+
+  &__fieldset {
+    @include bn;
+    padding: 0;
+    margin: 0;
+  }
+  
+  &__legend {
+    @include fw7;
+    @include mb2;
+  }
+
+  &__optionlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    @include ph2;
+    @include pv2;
+    width: 100%;
+  }
+  
+  &__generate {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  &__button {
+    cursor: pointer;
+    @include f6;
+    @include dib;
+    @include white;
+    @include no-underline;
+    @include pv2;
+    @include ph4;
+    @include br-pill;
+    @include ba;
+    @include b--white-20;
+    @include bg-black;
+  }
+
+  &__button:hover {
+    @include bg-black-20;
+    @include black;
+  }
+
+  &__output {
+    @include code;
+    @include f4;
+    @include pa1;
+    @include fw7;
+    position: relative;
+    user-select: all;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  &__output:hover {
+    @include bg-light-yellow;
+  }
+
+  &__entropy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include f3;
+    @include lh-title;
+    @include fw9;
+    @include mb3;
+    @include mt0;
+    @include pt3;
+    @include ttu;
+  }
+
+  
+  @media #{$breakpoint-medium} {
+    &__form {
+      @include pa4;
+    }
+    &__item {
+      @include ph2;
+      @include w-50;
+    }
+  }
+  
+  @media #{$breakpoint-large} {
+    &__item {
+      @include ph3;
+      @include w-third;
+    }
+  }
+
+
+
+}
+
+

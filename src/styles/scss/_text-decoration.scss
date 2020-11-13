@@ -1,0 +1,3 @@
+@mixin strike       { text-decoration: line-through; }
+@mixin underline    { text-decoration: underline; }
+@mixin no-underline { text-decoration: none; }

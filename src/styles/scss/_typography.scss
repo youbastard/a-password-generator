@@ -1,0 +1,27 @@
+@mixin measure {
+  max-width: $measure;
+}
+
+@mixin measure-wide {
+  max-width: $measure-wide;
+}
+
+@mixin measure-narrow {
+  max-width: $measure-narrow;
+}
+
+@mixin indent {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@mixin small-caps {
+  font-variant: small-caps;
+}
+
+@mixin truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

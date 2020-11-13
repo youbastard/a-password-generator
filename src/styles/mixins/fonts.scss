@@ -1,0 +1,27 @@
+// usage:
+//    @include font-base;
+//    @include font-condensed;
+//    @include font-table;
+//    @include font-header;
+
+@mixin font-base {
+  font-family: var(--font-condensed);
+}
+
+@mixin font-condensed {
+  font-family: var(--font-condensed);
+}
+
+@mixin font-table {
+  font-family: var(--font-condensed);
+  font-variant: tabular-nums;
+}
+
+@mixin font-header {
+  font-family: var(--font-condensed);
+  font-weight: 600;
+}
+
+@mixin font-serif {
+  font-family: var(--font-serif);
+}

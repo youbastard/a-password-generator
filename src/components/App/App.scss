@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__main {
+    flex-grow: 1;
+  }
+
+  &__footer {
+    position: relative;
+  }
+
+}

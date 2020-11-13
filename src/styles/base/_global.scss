@@ -1,0 +1,11 @@
+body {
+  @include sans-serif;
+}
+
+a {
+  color: #2c3e50;
+}
+
+a:hover {
+  text-decoration: underline;
+}
