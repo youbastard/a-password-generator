@@ -1,11 +1,10 @@
 {
-  "name": "passwordy",
+  "name": "a-password-generator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern",
-    "serve": "browser-sync start --server './dist' --https --port 8080 --browser 'google chrome'",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
