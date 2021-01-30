@@ -13,8 +13,13 @@ export default {
     }
   },
   methods: {
-    onClick () {
-
+    onInc () {
+      const val = this.val + 1;
+      this.$emit('fatNumberEvent', { ...this.$options.propsData, val });
+    },
+    onDec () {
+      const val = this.val - 1;
+      this.$emit('fatNumberEvent', { ...this.$options.propsData, val });
     }
   }
 };

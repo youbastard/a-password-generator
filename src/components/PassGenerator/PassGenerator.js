@@ -45,8 +45,7 @@ export default {
       return entropy.toFixed(1);
     },
     pwLength () {
-      // return this.opts.find((o) => o.k === 'pwLength').val;
-      return 36;
+      return this.opts.find((o) => o.k === 'pwLength').val;
     },
     useGroups () {
       return this.opts.find((o) => o.k === 'useGroups').val;
@@ -54,8 +53,16 @@ export default {
   },
   methods: {
     //
-    onToggleClick (opt) {
-      console.log(opt);
+    handleEvent (opts) {
+      console.log(opts);
+
+      const v = this.opts.find((o) => o.k === opts.k);
+
+      if (!v) {
+        return;
+      }
+
+      v.val = opts.val;
     },
     // calls the generatePassword utiltiy
     generate () {

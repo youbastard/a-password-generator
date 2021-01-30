@@ -4,40 +4,46 @@ export default [
     k: 'useUppercase',
     text: 'Uppercase Letters',
     type: 'FatToggle',
-    label: 'A-Z'
+    label: 'A-Z',
+    eventname: 'fatToggleEvent'
   },
   {
     val: true,
     k: 'useLowercase',
     text: 'Lowercase Letters',
     type: 'FatToggle',
-    label: 'a-z'
+    label: 'a-z',
+    eventname: 'fatToggleEvent'
   },
   {
     val: true,
     k: 'useNumbers',
     text: 'Numbers',
     type: 'FatToggle',
-    label: '0-9'
+    label: '0-9',
+    eventname: 'fatToggleEvent'
   },
   {
     val: false,
     k: 'useSymbols',
     text: 'Common Symbols',
     type: 'FatToggle',
-    label: '!@#'
+    label: '!@#',
+    eventname: 'fatToggleEvent'
   },
   {
     val: true,
     k: 'useGroups',
     text: 'Group characters',
     type: 'FatToggle',
-    label: 'x-x'
+    label: 'x-x',
+    eventname: 'fatToggleEvent'
   },
   {
     val: 36,
     k: 'pwLength',
     text: 'Password Length',
-    type: 'FatNumber'
+    type: 'FatNumber',
+    eventname: 'fatNumberEvent'
   }
 ];

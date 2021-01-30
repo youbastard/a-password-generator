@@ -6,7 +6,7 @@
       <fieldset class="pass-gen__fieldset">
         <div class="pass-gen__optionlist">
           <div class="pass-gen__item" v-for="o in opts" :key="o.k">
-            <div :is="o.type" v-bind="o" @onClick="onToggleClick" />
+            <div :is="o.type" v-bind="o" @[o.eventname]="handleEvent" />
           </div>
         </div>
 
